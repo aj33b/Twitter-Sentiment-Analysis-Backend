@@ -36,10 +36,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tsa_rest_api',
+    'rest_framework',
     'rest_framework_swagger',
+    'corsheaders',
 ]
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -119,3 +124,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'}
+
+# Twitter API Credentials
+TWITTER_API_KEY = 'a7N149sKQNaejgJuPHqbttjIW'
+TWITTER_API_KEY_SECRET = 'WCWZVqBQvrnbJhIfWvjbcWtLVoqqzR3lhSt9uHPjjjZWUHfpXF'
+TWITTER_BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAGVgcAEAAAAAz3NjXtW%2FKWHGNRqzQp%2BpAd6nMTA%3DRKDrNV178nW5EvKwwcJ2NfNC13ZNvSHeFnFmKZq2TBzjHMhyBP'
+TWITTER_ACCESS_TOKEN = '385258280-0cjP98dnZumxwelV1NgUNCfsEYyWleRNg0RjaKrb'
+TWITTER_ACCESS_TOKEN_SECRET = 'wR9aHVRbWTE5fSnqyA3UkfSKT3bvXb0qS0I1doD8608H1'
