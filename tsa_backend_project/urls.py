@@ -24,5 +24,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('docs', schema_view),
     re_path(r'^', include('tsa_rest_api.urls')),
-    re_path(r'^', include('twitter_api.urls'))
 ]
