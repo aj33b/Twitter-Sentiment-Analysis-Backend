@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39565061-1d11-4d46-b1fd-a8fe4d9c29a0" name="Changes" comment="v1.0.0&#10;1. Tweepy Twitter API integrated.&#10;2. Created API for fetching recent tweet for a search query.&#10;3. Added necessary urls for the twitter api.">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsa_backend_project/data/english_stop_words" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsa_backend_project/data/negative_tweets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsa_backend_project/data/positive_tweets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter-Sentiment-Analysis-Backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter-Sentiment-Analysis-Backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsa_backend_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsa_backend_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsa_rest_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsa_rest_api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsa_rest_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsa_rest_api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsa_rest_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsa_rest_api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsa_rest_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsa_rest_api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsa_backend_project/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/views.py" beforeDir="false" />
+    <list default="true" id="39565061-1d11-4d46-b1fd-a8fe4d9c29a0" name="Changes" comment="v1.0.0&#10;Finalized for demo">
+      <change afterPath="$PROJECT_DIR$/tsa_rest_api/migrations/0002_traineddata.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +133,7 @@
       <workItem from="1651304679872" duration="12064000" />
       <workItem from="1651387964501" duration="1844000" />
       <workItem from="1651396289305" duration="15056000" />
-      <workItem from="1651490307442" duration="21035000" />
+      <workItem from="1651490307442" duration="21086000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0.0&#10;1. Backend project setup in Django Framework.&#10;2. Created API with CRUD operation for classified_tweets.&#10;3. Added necessary urls for the api.">
       <created>1651386679714</created>
@@ -169,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651417157034</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1.0.0&#10;Finalized for demo">
+      <created>1651527379152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651527379152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v1.0.0&#10;Finalized for demo">
+      <created>1651527419168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651527419168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +185,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="v1.0.0&#10;1. Backend project setup in Django Framework.&#10;2. Created API with CRUD operation for classified_tweets.&#10;3. Added necessary urls for the api." />
     <MESSAGE value="v1.0.0&#10;1. Tweepy Twitter API integrated.&#10;2. Created API for fetching recent tweet for a search query.&#10;3. Added necessary urls for the twitter api." />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.0&#10;1. Tweepy Twitter API integrated.&#10;2. Created API for fetching recent tweet for a search query.&#10;3. Added necessary urls for the twitter api." />
+    <MESSAGE value="v1.0.0&#10;Finalized for demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.0&#10;Finalized for demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Twitter_Sentiment_Analysis_Backend$Run_Server.coverage" NAME="Run Server Coverage Results" MODIFIED="1651510542262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
